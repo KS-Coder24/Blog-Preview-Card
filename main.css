@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ADDING FONTS*/
+  
+  @font-face {
+      font-family: 'Figtree ExtraBold';
+      src: url(./Figtree-ExtraBold.ttf) format('truetype');
+      font-weight: 800;
+      font-style: normal;
+  }
+  
+  @font-face {
+      font-family: 'Figtree SemiBold';
+      src: url(./Figtree-SemiBold.ttf) format('truetype');
+      font-weight: 500;
+      font-style: normal;
+  }
+  
+  @font-face {
+      font-family: 'Figtree Variable';
+      src: url(./Figtree-VariableFont_wght.ttf) format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  /*SETTING BACKGROUND & */
+  
+  body {
+      font-family: 'Figtree Variable', sans-serif;
+      background: hsl(47, 88%, 63%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+  }
+  
+  /*Setting main container*/
+  main {
+      background-color: hsl(0, 0%, 100%);
+      border: 1.5px solid black;
+      border-radius: 16px;
+      box-shadow: 8px 8px 1px black;
+      padding: 18px;
+      width: 320px;
+      box-sizing: border-box;
+  }
+  
+  /*Styling header component*/
+  .heading img {
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      margin-bottom: 18px;
+  }
+  
+  .sub-title {
+      background-color: hsl(47, 88%, 63%);
+      font-family: 'Figtree SemiBold', sans-serif;
+      font-size: 9px;
+      width: 70px;
+      height: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin-bottom: 12px;
+  }
+  
+  header p {
+      font-size: 11px;
+      color: hsl(0, 0%, 7%);
+  }
+  
+  .text {
+      font-size: 12px;
+      margin-top: 18px;
+      margin-bottom: 18px;
+  }
+  
+  .title {
+      font-family: 'Figtree ExtraBold';
+      margin-bottom: 16px;
+  }
+  
+  .title a {
+      text-decoration: none;
+      color: inherit;
+  }
+  
+  .title a:hover {
+      color: hsl(47, 88%, 63%);
+  }
+  
+  .text p {
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 20px;
+      color: hsl(0, 0%, 42%);
+  }
+  
+  .footer {
+      display: flex;
+      align-items: center;
+  }
+  
+  .img-avatar {
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+      margin-right: 10px;
+  }
+  
+  .footer p {
+      margin: 0;
+      font-size: 12px;
+      font-family: 'Figtree ExtraBold';
+      line-height: 30px;
+  }
+  
+ 
+  /* Media Query for Desktop Size */
+  @media (min-width: 1440px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        box-shadow: 8px 8px 2px black;
+    }
+}
